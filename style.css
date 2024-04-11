@@ -1,0 +1,55 @@
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Cambia la primera y última fila a auto */
+    gap: 0px 0px;
+    justify-content: center;
+}
+
+.Main {
+    grid-area: 2 / 1 / 3 / 2; /* Ajusta la posición del área principal */
+}
+
+.Footer {
+    grid-area: 3 / 1 / 4 / 2; /* Ajusta la posición del footer */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.full-width {
+    width: 100%;
+}
+
+.carousel-inner img {
+    width: 100%; /* Ajusta el ancho de la imagen dentro del carrusel */
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-brand{
+    color:white;
+}
+
+.dropdown-menu{color: white;}
+
+
+.letra-grande{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Agrega estilos para cambiar el color del icono del navbar-toggler */
+.custom-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M3 12h10a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2zm0-4h10a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2zm0-4h10a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2z'/%3E%3C/svg%3E");
+}
+
+.navbar-brand img {
+    height: 40px; /* Altura fija para la imagen */
+    width: auto; /* Ancho ajustable para mantener la proporción */
+}
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el contenido */
+}
